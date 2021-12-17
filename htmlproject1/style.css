@@ -1,0 +1,35 @@
+.parent{
+    height: 550px;
+    display: flex;
+    flex direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid greenyellow;
+}
+.parent>div{
+    width: auto;
+    border: 2px solid greenyellow;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    background-color: cornsilk;
+
+}
+h1{
+    color: hotpink;
+}
+h2{
+    color: chocolate;
+}
+h3{
+    color: indigo;
+}
+button{
+    color: blue;
+}
